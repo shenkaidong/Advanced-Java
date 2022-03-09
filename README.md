@@ -19,16 +19,17 @@ This is a summary of Advanced Java programming notes. Beginners or reviewers can
 
 ## :pencil2: DocFile
 
-- [01 - Basics](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/01%20-%20Basics)
-- [02 - Materials](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/02%20-%20Materials)
-- [03 - Data Types](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/03%20-%20Data%20Types)
-- [04 - OOP principles](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/04%20-%20OOP%20principles)
-- [05 - Exception Handling](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/05%20-%20Exception%20Handling)
-- [06 - Collections - List](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/06%20-%20Collections%20-%20List)
-- [07 - Collections - Set](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/07%20-%20Collections%20-%20Set)
-- [08 - Collections - Map](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/08%20-%20Collections%20-%20Map)
-- [09 - String](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/09%20-%20String)
-- [10 - IO and Serialization](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/10%20-%20IO%20and%20Serialization)
+- [01 - Materials](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/02%20-%20Materials)  
+- [02 - Restful Web Service](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/03%20-%20Data%20Types)  
+- [03 - Servlet](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/04%20-%20OOP%20principles)  
+- [04 - Spring Demo - IOC-AOP](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/05%20-%20Exception%20Handling)  
+- [05 - AWS - IAM, S3, SNS, SQS](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/06%20-%20Collections%20-%20List)  
+- [06 - AWS - Lambda (Sending Email)](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/07%20-%20Collections%20-%20Set)  
+- [07 - AWS - CloudFormation - Lambda SQS Email Function](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/08%20-%20Collections%20-%20Map)  
+- [08 - AWS - EC2, Deploy Jar](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/09%20-%20String)  
+- [09 - System, Server, Service Monitoring - Prometheus, Grafana](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/10%20-%20IO%20and%20Serialization)  
+
+
 - [11 - Synchronization & Thread](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/11%20-%20Synchronization%20%26%20Thread)
 - [12 - Annotation](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/12%20-%20Annotation)
 - [13 - JVM - Classloader & Reflection API](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/13%20-%20JVM%20-%20Classloader%20%26%20Reflection%20API)
