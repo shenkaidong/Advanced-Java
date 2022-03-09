@@ -29,19 +29,6 @@ This is a summary of Advanced Java programming notes. Beginners or reviewers can
 - [08 - AWS - EC2, Deploy Jar](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/09%20-%20String)  
 - [09 - System, Server, Service Monitoring - Prometheus, Grafana](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/10%20-%20IO%20and%20Serialization)  
 
-
-- [11 - Synchronization & Thread](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/11%20-%20Synchronization%20%26%20Thread)
-- [12 - Annotation](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/12%20-%20Annotation)
-- [13 - JVM - Classloader & Reflection API](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/13%20-%20JVM%20-%20Classloader%20%26%20Reflection%20API)
-- [14 - JVM - Garbage Collector](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/14%20-%20JVM%20-%20Garbage%20Collector)
-- [15 - JVM - Monitoring Tools](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/15%20-%20JVM%20-%20Monitoring%20Tools)
-- [16 - Design Patterns - Singleton](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/16%20-%20Design%20Patterns%20-%20Singleton)
-- [17 - Design Patterns - Factory](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/17%20-%20Design%20Patterns%20-%20Factory)
-- [18 - Design Patterns - Builder](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/18%20-%20Design%20Patterns%20-%20Builder)
-- [19 - Design Patterns - Proxy](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/19%20-%20Design%20Patterns%20-%20Proxy)
-- [20 - Java 8 - Functional Interface & Lambda](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/20%20-%20Java%208%20-%20Functional%20Interface%20%26%20Lambda)
-- [21 - Java 8 - Stream API](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/21%20-%20Java%208%20-%20Stream%20API)
-
 ## :memo: Homework
 
 - [Learning Management System Assignments](https://github.com/shenkaidong/Core-Java-Basic/tree/master/CoreJavaCode/src/main/java/lmsAssignments)
