@@ -17,6 +17,9 @@ This is a summary of Advanced Java programming notes. Beginners or reviewers can
 
 <br>
 
+## Go to Advanced Java
+If you looking for Advanced Java, please visit [here](https://github.com/shenkaidong/Advanced-Java).
+
 ## :pencil2: DocFile
 
 - [01 - Materials](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/02%20-%20Materials)  
