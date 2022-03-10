@@ -157,5 +157,6 @@ Concepts:
 -Start to manage the git about Advanced Java  
 
 03/10/2022 Summary  
+CI/CD and Waterfall vs Agile
 
 03/11/2022 Summary  
