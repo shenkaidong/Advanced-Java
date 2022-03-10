@@ -21,7 +21,7 @@ This is a summary of Advanced Java programming notes. Beginners or reviewers can
 
 
 ## Go to Core Java Basic
-If you looking for Core Java Basic, please visit [here](https://github.com/shenkaidong/Advanced-Java).
+If you looking for Core Java Basic, please visit [here](https://github.com/shenkaidong/Core-Java-Basic).
 
 ## :pencil2: DocFile
 
@@ -76,7 +76,7 @@ If you looking for Core Java Basic, please visit [here](https://github.com/shenk
 
 ## :memo: Other
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [node](https://github.com/shenkaidong/Advanced-Java/blob/master/node/node.md)
 
 
 
