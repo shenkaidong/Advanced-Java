@@ -31,13 +31,3 @@
 [Day 15](day-15.md)
 
 [Interview Questions](interview-questions.md)
-
-[Collections](core-java/collections.md)
-
-[Java 8 New Features](core-java/java8newfeature.md)
-
-[Java Keywords](core-java/keywords.md)
-
-[Multithreading](core-java/multithreading.md)
-
-[OOP](core-java/oop.md)
