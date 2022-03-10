@@ -76,7 +76,7 @@ If you looking for Core Java Basic, please visit [here](https://github.com/shenk
 
 ## :memo: Other
 
-- [node](https://github.com/shenkaidong/Advanced-Java/blob/master/node/node.md)
+- [node](https://github.com/shenkaidong/Advanced-Java/blob/master/node/daily-knowledge/node.md)
 
 
 
