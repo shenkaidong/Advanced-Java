@@ -42,36 +42,36 @@ If you looking for Core Java Basic, please visit [here](https://github.com/shenk
 
 ## :cloud: Message-Queue
 
-- [Java-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/java)
+- [Message-Queue](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/java)
 
 ## :art: CI/CD
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [CI/CD](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :floppy_disk: Web
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [Web](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :coffee: Web-Services
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [Web-Services](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :bulb: SDLC-Project-management
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [SDLC-Project-management](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :wrench: Test
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [Test](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :watermelon: Security
 
-- [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
+- [Security](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
 ## :memo: Other
