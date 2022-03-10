@@ -1,22 +1,22 @@
 # Study plan
 
-[Day 1](day-1.md)
+[Day 01](day-01.md)
 
-[Day 2](day-2.md)
+[Day 02](day-02.md)
 
-[Day 3](day-3.md)
+[Day 03](day-03.md)
 
-[Day 4](day-4.md)
+[Day 04](day-04.md)
 
-[Day 5](day-5.md)
+[Day 05](day-05.md)
 
-[Day 6](day-6.md)
+[Day 06](day-06.md)
 
-[Day 7](day-7.md)
+[Day 07](day-07.md)
 
-[Day 8](day-8.md)
+[Day 08](day-08.md)
 
-[Day 9](day-9.md)
+[Day 09](day-09.md)
 
 [Day 10](day-10.md)
 
