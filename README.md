@@ -12,9 +12,9 @@ This is a summary of Advanced Java programming notes. Beginners or reviewers can
 <br>
 
 
-| &nbsp;DocFile&nbsp; | Spring Family | &nbsp;Message Queue&nbsp; |CI/CD| &nbsp;&nbsp;Web&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Web Services&nbsp;&nbsp;&nbsp;|         SDLC / Project management| &nbsp;&nbsp;&nbsp;Test&nbsp;&nbsp;&nbsp; |Security| &nbsp;&nbsp;&nbsp;Other&nbsp;&nbsp;&nbsp; |
+| &nbsp;DocFile&nbsp; | Spring-Family | &nbsp;Message-Queue&nbsp; |CI/CD| &nbsp;&nbsp;Web&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Web-Services&nbsp;&nbsp;&nbsp;|         SDLC-Project-management| &nbsp;&nbsp;&nbsp;Test&nbsp;&nbsp;&nbsp; |Security| &nbsp;&nbsp;&nbsp;Other&nbsp;&nbsp;&nbsp; |
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| [:pencil2:](#pencil2-DocFile) | [:computer:](#computer-Spring Family) | [:cloud:](#cloud-Message Queue) | [:art:](#art-CI/CD) | [:floppy_disk:](#floppy_disk-Web) |[:coffee:](#coffee-Web Services)| [:bulb:](#bulb-SDLC / Project management) |[:wrench:](#wrench-Test)| [:watermelon:](#watermelon-Security) |[:memo:](#memo-Other)|
+| [:pencil2:](#pencil2-DocFile) | [:computer:](#computer-Spring-Family) | [:cloud:](#cloud-Message-Queue) | [:art:](#art-CI/CD) | [:floppy_disk:](#floppy_disk-Web) |[:coffee:](#coffee-Web-Services)| [:bulb:](#bulb-SDLC-Project-management) |[:wrench:](#wrench-Test)| [:watermelon:](#watermelon-Security) |[:memo:](#memo-Other)|
 
 <br>
 
@@ -35,12 +35,12 @@ If you looking for Core Java Basic, please visit [here](https://github.com/shenk
 - [08 - AWS - EC2, Deploy Jar](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/09%20-%20String)  
 - [09 - System, Server, Service Monitoring - Prometheus, Grafana](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/java/10%20-%20IO%20and%20Serialization)  
 
-## :computer: Spring Family
+## :computer: Spring-Family
 
 - [Learning Management System Assignments](https://github.com/shenkaidong/Core-Java-Basic/tree/master/CoreJavaCode/src/main/java/lmsAssignments)
 - [Class Homeworks](https://github.com/shenkaidong/Core-Java-Basic/tree/master/CoreJavaCode/src/main/java/homeworks)
 
-## :cloud: Message Queue
+## :cloud: Message-Queue
 
 - [Java-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/java)
 
@@ -54,12 +54,12 @@ If you looking for Core Java Basic, please visit [here](https://github.com/shenk
 - [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
-## :coffee: Web Services
+## :coffee: Web-Services
 
 - [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
 
-## :bulb: SDLC / Project management
+## :bulb: SDLC-Project-management
 
 - [Database-Major-Concept](https://github.com/shenkaidong/Core-Java-Basic/tree/master/note/concept/database)
 
