@@ -1,0 +1,165 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "09a477d4-8447-4c41-8bc8-57a3514cb820": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 100,
+                    "y": 100
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "77452833-e639-49b7-8984-4356808112f9": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 400,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "f6b5ed86-cb10-4bbf-8b02-e23a81f184c8"
+                ]
+            },
+            "6dcd0751-6eae-417e-b968-bf3a44dccb0c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 260,
+                    "y": 190
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "77452833-e639-49b7-8984-4356808112f9",
+                    "09a477d4-8447-4c41-8bc8-57a3514cb820"
+                ]
+            },
+            "f6b5ed86-cb10-4bbf-8b02-e23a81f184c8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 590,
+                    "y": -60
+                },
+                "z": 1,
+                "embeds": []
+            }
+        }
+    },
+    "Parameters" : {
+      "emailAccount" : {
+        "Type" : "String",
+        "Default" :"1",
+        "Description" : "Will be your gmail account"
+      },
+      "emailPassword" : {
+        "Type" : "String",
+         "Default" :"1",
+        "Description" : "Will be your gmail password"
+      }
+    },
+    "Resources": {
+        "EmailQueue": {
+            "Type": "AWS::SQS::Queue",
+            "Properties": {
+                "QueueName": "email_queue"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "09a477d4-8447-4c41-8bc8-57a3514cb820"
+                }
+            }
+        },
+        "EmailLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "FunctionName": "emailFunction",
+                "Role":  {
+                    "Fn::Sub":"arn:aws:iam::${AWS::AccountId}:role/allowLambdaToAccessEmailQueueRole"
+                },
+                "Code": {
+                    "S3Bucket": "cloudformation-bucket-lambda-test",
+                    "S3Key": "sendEmailCode.zip"
+                },
+                "Runtime" : "python3.6",
+                "Handler" : "sendEmailCode.lambda_handler",
+                "Environment": {
+                    "Variables": {
+                        "email_account":{ "Ref" : "emailAccount" },
+                        "email_password": { "Ref" : "emailPassword" }
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "77452833-e639-49b7-8984-4356808112f9"
+                }
+            },
+            "DependsOn": [
+                "LambdaRole"
+            ]
+        },
+        "Trigger": {
+            "Type": "AWS::Lambda::EventSourceMapping",
+            "Properties": {
+                "EventSourceArn" : { "Fn::GetAtt" : [ "EmailQueue", "Arn" ] },
+                "FunctionName": "emailFunction",
+                "Queues": [
+                    "email_queue"
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6dcd0751-6eae-417e-b968-bf3a44dccb0c"
+                }
+            },
+            "DependsOn": [
+                "EmailLambda",
+                "EmailQueue"
+            ]
+        },
+        "LambdaRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "RoleName": "allowLambdaToAccessEmailQueueRole",
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "ManagedPolicyArns": [
+                    "arn:aws:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole"
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "f6b5ed86-cb10-4bbf-8b02-e23a81f184c8"
+                }
+            }
+        }
+    }
+}

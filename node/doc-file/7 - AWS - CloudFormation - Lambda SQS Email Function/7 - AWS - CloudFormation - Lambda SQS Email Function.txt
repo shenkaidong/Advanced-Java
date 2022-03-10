@@ -1,0 +1,11 @@
+Using CloudFormation to create the Lambda Function and SQS queue for the email sending
+
+1. Upload the sendEmailCode.zip into your own bucket XYZ.
+
+2. Change the bucket name in the template file to XYZ.
+
+3. Create the stack.
+
+* if sending message directly to the email_queue, use this format:{"to":"youremail@gmail.com","from":"don_not_reply@gmail.com","subject":"Hello","body":"I made it","token":"12345"}
+
+ https://www.youtube.com/watch?v=OXdOTzO1nxI

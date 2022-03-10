@@ -1,0 +1,14 @@
+IAM User Creation
+https://www.youtube.com/watch?v=navXkaVl_rw
+
+
+ 
+
+Create S3 Bucket
+https://www.youtube.com/watch?v=Ti_kqrRnl8w
+
+
+ 
+
+Create SNS queue and SQS topic
+https://www.youtube.com/watch?v=9sLCtMFzXuk

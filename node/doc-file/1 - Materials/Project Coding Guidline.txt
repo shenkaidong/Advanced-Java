@@ -1,0 +1,17 @@
+Project Coding Guidline
+
+1. Good Naming Conviention. Camel Patterns.
+
+2. Good Coding Format. alignment, indentation, public method before private methods.
+
+3. Make sure code is in the right braces. Not method inside method or any unclosed braces.
+
+If it is a Controller/RestController:
+
+4. Using correct annotations for request mapping, parameters and DI.
+
+5. Make sure you have log. (private static final Logger LOGGER = LoggerFactory.getLogger(YouClass.class))
+
+6. Make sure you have exception handling. (LOGGER.error(ex) inside @ExceptionHandler method)
+
+7. Make sure you have proper validation.

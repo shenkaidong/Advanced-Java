@@ -1,0 +1,8 @@
+Create single EC2 instance
+
+https://www.youtube.com/watch?v=O4acYM-QvXg
+
+ 
+
+Deploy Jar file generated from SpringBoot
+https://www.youtube.com/watch?v=XAeYkX8XEHc

@@ -1,0 +1,10 @@
+Setup Tomcat in IntelliJIDEA and create a servlet project
+https://www.youtube.com/watch?v=0SfYavwVNPk
+
+
+ 
+
+ 
+
+Get parameters from post request
+https://www.youtube.com/watch?v=VvHMPXsyWp0
