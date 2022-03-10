@@ -1,0 +1,6 @@
+Sending Email using Lambda
+
+(python code in the link above)
+
+ https://www.youtube.com/watch?v=NaFoukiRNHE
+
