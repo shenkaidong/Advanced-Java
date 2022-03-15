@@ -1,6 +1,6 @@
 AWS is a cloud computing service offered by Amazon. AWS lets you build, test, deploy and manage applications and services. All this is done via the data-centers and the hardware managed by Amazon. AWS provides you a combination of Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS) offerings.
 
-You can use AWS to create Virtual Machines which can be armed with processing power, storage capacity, and analytics along with networking and device management. AWS offers you a pay-as-you-go model, which helps to avoid upfront costs and pay based on the usage monthly.
+You can use AWS to create Virtual Machines which can be armed with processing power, storage capacity, and analytics along with networking and device management. AWS offers you a pay-as-you-go model, which helps to avoid upfront costs and pay based on the usage monthly.  
 
 Find the list of the top asked AWS Interview Questions and answers below.
 
