@@ -1,4 +1,5 @@
-02/17/2022 Summary  
+02/17/2022 Summary    
+
 Concepts:  
 -HTTP/HTTPS request  
 -Request line  
@@ -146,38 +147,38 @@ Concepts:
 
 03/07/2022 Summary  
 -Learn some MongoDB basic  
--Prepared interview questions  
+-Prepared interview questions    
 
 03/08/2022 Summary  
--Fully understand following concepts: configuration management, service discovery, circuit breakers, intelligent routing, micro-proxy, control bus, one-time tokens, global locks, leadership election, distributed sessions, cluster state   
--Create new branch for Product API and connect to MongoDB  
+-Fully understand following concepts: configuration management, service discovery, circuit breakers, intelligent routing, micro-proxy, control bus, one-time tokens, global locks, leadership election, distributed sessions, cluster state     
+-Create new branch for Product API and connect to MongoDB    
 
 
-03/09/2022 Summary  
--Start to manage the git about Advanced Java  
+03/09/2022 Summary    
+-Start to manage the git about Advanced Java    
 
-03/10/2022 Summary  
-CI/CD and Waterfall vs Agile
+03/10/2022 Summary    
+CI/CD and Waterfall vs Agile  
 
-03/11/2022 Summary  
+03/11/2022 Summary    
 AWS and BFS
 
-03/12/2022 Summary 
+03/12/2022 Summary   
 Working on DFS
 
-03/13/2022 Summary
+03/13/2022 Summary  
 Working on Graph
 
-03/14/2022 Summary 
+03/14/2022 Summary   
 AWS project learning
 
-03/15/2022 Summary  
-Java Test Junit, monika and SonarQube
+03/15/2022 Summary      
+Java Test Junit, monika and SonarQube  
 
-03/16/2022 Summary  
+03/16/2022 Summary    
 
-03/17/2022 Summary  
+03/17/2022 Summary    
 
-03/18/2022 Summary  
+03/18/2022 Summary    
 
-03/19/2022 Summary  
+03/19/2022 Summary    
