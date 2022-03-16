@@ -172,6 +172,7 @@ Working on Graph
 AWS project learning
 
 03/15/2022 Summary  
+Java Test Junit, monika and SonarQube
 
 03/16/2022 Summary  
 
