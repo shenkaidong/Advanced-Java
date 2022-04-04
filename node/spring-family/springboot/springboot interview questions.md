@@ -287,6 +287,7 @@ Spring Boot CLI is a tool supported by the official [Spring Framework](https://w
 
 · In this file create a controller as follows:
 
+````
 @RestController  public class Sample {  
 
  @RequestMapping("/example")  
@@ -296,7 +297,7 @@ Spring Boot CLI is a tool supported by the official [Spring Framework](https://w
 <h1>"Welcome To Edureka"</h1>;  
 
 }  }
-
+````
 · 
 
 Then execute the groovy file by mentioning:
@@ -353,11 +354,13 @@ Apart from this, Spring Boot also provides the facility to exclude list of auto-
 ### ***\*Q25. What are the steps to deploy Spring Boot web applications as JAR and WAR files?\****
 
 To deploy a Spring Boot web application, you just have to add the following plugin in the pom.xml file:
-
-| 1234 | <plugin>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-maven-plugin</artifactId></plugin> |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-
+````
+    <plugin>  
+        <groupId>org.springframework.boot</groupId>  
+        <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin> 
+                                                            |
+````
 By using the above plugin, you will get a JAR executing the package phase. This JAR will contain all the necessary libraries and dependencies required. It will also contain an embedded server. So, you can basically run the application like an ordinary JAR file.
 ***\*Note:\**** The packaging element in the pom.xml file must be set to ***\*jar\**** to build a JAR file as below:
 
@@ -399,15 +402,20 @@ One way to expose the custom application [configuration in Spring](https://www.e
 
 By centralized approach, I mean that you can define a configuration component using the @ConfigurationProperties as follows:
 
-| 123456 | @Component@ConfigurationProperties("example")public class SampleConfiguration {private int number;private boolean value;private String message; |
-| ------ | ------------------------------------------------------------ |
-|        |                                                              |
-
+````
+    @Component
+    @ConfigurationProperties("example")
+    public class SampleConfiguration {
+        private int number;
+        private boolean value;
+        private String message; 
+                                                         |
+````
 According to the above snippet, the values configured in application.properties will be as follows:
 
-| 123  | example.number: 100example.value: trueexample.message: Dynamic Message |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
+````
+    example.number: 100example.value: trueexample.message: Dynamic Message |
+````
 
 ### ***\*Q29. Can we create a non-web application in Spring Boot?\****
 
@@ -442,22 +450,22 @@ When we use the Spring Boot Auto Configuration, automatically the spring***\*-bo
 ### ***\*Q33. What do you understand by Spring Data REST?\****
 
 Spring Data REST is used to expose the RESTful resources around Spring Data repositories. Consider the following example:
-
-| 123  | @RepositoryRestResource(collectionResourceRel = "sample", path = "sample")public interface SampleRepository    extends CustomerRepository<sample, Long> { |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-
+````
+    @RepositoryRestResource(collectionResourceRel = "sample", path = "sample")
+    public interface SampleRepository extends CustomerRepository<sample, Long> { }
+                                                      |
+````
 Now, to expose the REST services, you can use the POST method in the following way:
-
-| 123  | {"customername": "Rohit"} |
-| ---- | ------------------------- |
-|      |                           |
+````
+    {
+        "customername": "Rohit"
+    } 
+````
 
 Response Content
 
-| 12345678910 | {"customername": "Rohit""_links": {"self": {"href": "<a href="http://localhost:8080/sample/1">http://localhost:8080/sample/1</a>"},"sample": {"href": "<a href="http://localhost:8080/sample/1">http://localhost:8080/sample/1</a>"}} |
-| ----------- | ------------------------------------------------------------ |
-|             |                                                              |
+{"customername": "Rohit""_links": {"self": {"href": "<a href="http://localhost:8080/sample/1">http://localhost:8080/sample/1</a>"},"sample": {"href": "<a href="http://localhost:8080/sample/1">http://localhost:8080/sample/1</a>"}} |
+                                                          |
 
 Observe that the response content contains the href of the newly created resource.
 
@@ -474,9 +482,8 @@ The boundary of the transaction should start from the Service Layer since the lo
 
 ### ***\*Q36.\**** ***\*How does path=”sample”, collectionResourceRel=”sample” work with Spring Data Rest?\****
 
-| 123  | @RepositoryRestResource(collectionResourceRel = "sample", path = "sample")public interface SampleRepository extendsPagingAndSortingRepository<Sample, Long> |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
+    @RepositoryRestResource(collectionResourceRel = "sample", path = "sample")
+    public interface SampleRepository extends PagingAndSortingRepository<Sample, Long> 
 
 · path – This section is used to mention the segment under which the resource is to be exported.
 
@@ -589,9 +596,8 @@ The dependencies are needed to start up a JPA Application and connect to in-memo
 
 · To include the dependencies refer to the following code:
 
-| 12345678910111213 | <dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-web</artifactId></dependency><dependency>  <groupId>com.h2database</groupId>  <artifactId>h2</artifactId>  <scope>runtime</scope></dependency><dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-data-jpa</artifactId></dependency> |
-| ----------------- | ------------------------------------------------------------ |
-|                   |                                                              |
+    <dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-web</artifactId></dependency><dependency>  <groupId>com.h2database</groupId>  <artifactId>h2</artifactId>  <scope>runtime</scope></dependency><dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-data-jpa</artifactId></dependency> |
+                                                          |
 
 ### ***\*Q47. What do you understand by Spring Boot supports relaxed binding?\****
 
@@ -623,9 +629,8 @@ spring.datasource.name=testdb # Name of the datasource.
 
 Yes, we can use jetty instead of tomcat in spring-boot-starter-web, by removing the existing dependency and including the following:
 
-| 1234567891011121314 | <dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-web</artifactId>  <exclusions>    <exclusion>      <groupId>org.springframework.boot</groupId>      <artifactId>spring-boot-starter-tomcat</artifactId>    </exclusion>  </exclusions></dependency><dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-jetty</artifactId></dependency> |
-| ------------------- | ------------------------------------------------------------ |
-|                     |                                                              |
+    <dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-web</artifactId>  <exclusions>    <exclusion>      <groupId>org.springframework.boot</groupId>      <artifactId>spring-boot-starter-tomcat</artifactId>    </exclusion>  </exclusions></dependency><dependency>  <groupId>org.springframework.boot</groupId>  <artifactId>spring-boot-starter-jetty</artifactId></dependency> |
+                                                          |
 
 With this, we come to an end to this article on Spring Boot Interview Questions. I hope this set of Spring Boot Interview Questions and Answers will help you in preparing for your interviews. All the best! If you want to learn Spring and wish to use it while developing Java applications, then check out the [***\*Spring Certification\**** ](https://www.edureka.co/spring-certification-course)Training by Edureka, a trusted online learning company with a network of more than 250,000 satisfied learners spread across the globe.
 
